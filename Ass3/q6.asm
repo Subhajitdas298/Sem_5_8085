@@ -1,0 +1,9 @@
+# ORG 2000
+	   LXI SP,2200
+	   LXI H,5555
+	   MVI C,80
+
+LOOP:	   PUSH H
+	   DCR C
+	   JNZ LOOP
+	   HLT
