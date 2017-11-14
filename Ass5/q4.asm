@@ -1,10 +1,11 @@
 # ORG 2000
 	   LXI H,2100
+	   MOV B,M
 	   INX H
+	   MOV C,M
+	   INR H
 	   MVI M,00
 	   XRA A
-	   MVI B,25
-	   MVI C,03
 	   MVI D,00
 
 LOOP:	   ADD B
